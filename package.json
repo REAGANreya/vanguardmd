@@ -1,11 +1,10 @@
 {
   "name": "vanguard-md",
-  "version": "2.2.3-rc1",
+  "version": "2.2.3-rc2",
   "description": "VANGUARD MD — WhatsApp Multi-Device Bot powered by Lord MegaBaileys",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "npm rebuild better-sqlite3 --build-from-source",
     "dev": "nodemon index.js"
   },
   "dependencies": {
